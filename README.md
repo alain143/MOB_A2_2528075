@@ -28,13 +28,12 @@ eas build -p android --profile preview
 ```
 Download the APK from the link EAS prints and rename it `MOB_A2_2528075.apk`.
 
-## Release details (fill in before submitting)
-- Tested device: ______
-- Android version: ______
-- Final commit hash: ______
-- Release link: ______
-- APK link: ______
+## Release details 
+- Tested device: Redmi NFC 9C
+- Android version: 11
+- Final commit hash: 3a6b08d843af8705d327d80bb233f32fd0f30137
+- Release link: https://github.com/YOUR_USERNAME/MOB_A2_2528075.git
+- APK link: MOB_A2_2528075.apk
 
 ## Known limitations
-- Android only; no online features.
 - Profile photo is stored inside AsyncStorage as a compressed image (low-risk class data only).
