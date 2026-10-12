@@ -32,8 +32,8 @@ Download the APK from the link EAS prints and rename it `MOB_A2_2528075.apk`.
 - Tested device: Redmi NFC 9C
 - Android version: 11
 - Final commit hash: 3a6b08d843af8705d327d80bb233f32fd0f30137
-- Release link: https://github.com/YOUR_USERNAME/MOB_A2_2528075.git
-- APK link: MOB_A2_2528075.apk
+- Release link:https://github.com/alain143/MOB_A2_2528075/releases/tag/v1.0.0
+- APK link: https://github.com/alain143/MOB_A2_2528075/releases/download/v1.0.0/MOB_A2_2528075.apk
 
 ## Known limitations
 - Profile photo is stored inside AsyncStorage as a compressed image (low-risk class data only).
