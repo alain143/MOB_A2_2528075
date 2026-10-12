@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "AlainPortfolio",
+    "slug": "alainportfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F4C5C"
+    },
+    "android": {
+      "package": "rw.ac.ines.ug2528075.alainportfolio",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F4C5C"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "AlainPortfolio needs gallery access so you can choose a profile photo.",
+          "cameraPermission": "AlainPortfolio needs camera access so you can take a profile photo."
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "814a21f6-6adc-4c2c-979f-8afb8b9f5a83"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "rw.ac.ines.ug2528075.alainportfolio",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
